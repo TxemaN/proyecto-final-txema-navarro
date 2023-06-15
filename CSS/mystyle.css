@@ -1,0 +1,84 @@
+
+@media screen and (min-width: 481px) {
+    .cabecera {
+        background: orangered;
+        color: white;
+        display: inline block;
+        width: 30%;
+        text-align: center;
+        padding-left: 5%;
+        padding-right: 5%;
+        
+     
+    }}
+
+
+
+@media screen and (min-width: 769px) {
+.cabecera {
+    background: orangered;
+    color: white;
+    display: inline;
+    width: 30%;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    
+ 
+}}
+
+#header:not(.cabecera){ 
+    width: 99.7%;
+    padding-bottom: 2%;
+    text-align: center;
+    background: orangered;
+    color: white;
+    border: solid black;
+    }
+    @media screen and (min-width: 481px) {
+.tipodeplato{
+    background: #33cccc;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    width: 100%;
+    }}
+
+    @media screen and (min-width: 769px) {
+        .tipodeplato{
+            background: #33cccc;
+            padding-top: 1%;
+            padding-bottom: 1%;
+            padding-left: 1%;
+            width: 100%;
+            }}
+
+
+    body{
+    background-color: white;
+    margin: 0 auto ;
+    
+    }
+   @media screen and (min-width: 481px) {    
+        iframe {
+           position: absolute;
+           top: 0; 
+           left: 200%; 
+           size: 0; 
+           width: 0; 
+           background: rgb(197, 28, 28);
+           border: solid black;
+        }
+        }
+@media screen and (min-width: 769px) {    
+iframe {
+   position: absolute;
+   top: 23.7%; 
+   left: 63%; 
+   size: 5%; 
+   width: 36.3%; 
+   background: white;
+   border: solid black;
+}
+}
+
