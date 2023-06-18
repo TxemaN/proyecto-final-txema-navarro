@@ -1,84 +1,284 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
 
-@media screen and (min-width: 481px) {
-    .cabecera {
-        background: orangered;
-        color: white;
-        display: inline block;
-        width: 30%;
+header {
+
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    position: sticky;
+    top: 1px;
+    background-color: azure;
+
+
+
+
+}
+
+h1 {
+    font-family: 'Freehand', cursive;
+}
+
+
+.bienvenida {
+
+    display: block;
+    text-align: center;
+    border: solid orangered 4px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+
+@media screen and (min-width: 600px) {
+    .bienvenida {
+
+        display: block;
         text-align: center;
-        padding-left: 5%;
-        padding-right: 5%;
-        
-     
-    }}
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .bienvenida {
+
+        font-size: 2em;
+        display: block;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+}
 
 
 
-@media screen and (min-width: 769px) {
+
+
 .cabecera {
     background: orangered;
-    color: white;
-    display: inline;
-    width: 30%;
-    text-align: center;
-    padding-left: 5%;
-    padding-right: 5%;
-    
- 
-}}
-
-#header:not(.cabecera){ 
-    width: 99.7%;
-    padding-bottom: 2%;
-    text-align: center;
-    background: orangered;
-    color: white;
-    border: solid black;
-    }
-    @media screen and (min-width: 481px) {
-.tipodeplato{
-    background: #33cccc;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    padding-left: 1%;
+    border: solid orangered 4px;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
     width: 100%;
-    }}
+    text-align: center;
+    text-decoration-line: underline;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 
-    @media screen and (min-width: 769px) {
-        .tipodeplato{
-            background: #33cccc;
-            padding-top: 1%;
-            padding-bottom: 1%;
-            padding-left: 1%;
-            width: 100%;
-            }}
+}
 
 
-    body{
-    background-color: white;
-    margin: 0 auto ;
-    
+
+
+
+@media screen and (min-width: 600px) {
+    .cabecera {
+        display: inline-block;
+        background: orangered;
+        text-align: center;
     }
-   @media screen and (min-width: 481px) {    
-        iframe {
-           position: absolute;
-           top: 0; 
-           left: 200%; 
-           size: 0; 
-           width: 0; 
-           background: rgb(197, 28, 28);
-           border: solid black;
-        }
-        }
-@media screen and (min-width: 769px) {    
-iframe {
-   position: absolute;
-   top: 23.7%; 
-   left: 63%; 
-   size: 5%; 
-   width: 36.3%; 
-   background: white;
-   border: solid black;
-}
 }
 
+@media screen and (min-width: 768px) {
+    .cabecera {
+        display: inline-block;
+        background: orangered;
+        text-align: center;
+
+    }
+}
+
+
+
+
+body {
+    background-color: white;
+    margin: 0 auto;
+}
+
+img {
+    width: 100%;
+}
+
+video {
+    width: 100%;
+}
+#fotocabecera {
+
+    z-index: -10;
+    width: 50%;
+    position: fixed;
+    margin-left: auto;
+    margin-right: auto;
+    top: 0px;
+    left: 25%;
+}
+
+@media screen and (min-width: 600px) {
+    #fotocabecera {
+
+        z-index: -10;
+        width: 50%;
+        position: fixed;
+        margin-left: auto;
+        margin-right: auto;
+        top: 0px;
+        left: 25%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    #fotocabecera {
+
+        z-index: -10;
+        width: 50%;
+        position: fixed;
+        margin-left: auto;
+        margin-right: auto;
+        top: -5px;
+        left: 25%;
+    }
+}
+
+
+#tiposDePlato {
+    display: flex;
+    flex-direction: column;
+    background: orangered;
+    border: solid orangered 4px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
+
+@media screen and (min-width: 600px) {
+    #tiposDePlato {
+        display: flex;
+        flex-direction: row;
+        background: orangered;
+
+    }
+}
+
+@media screen and (min-width: 768px) {
+    #tiposDePlato {
+        display: flex;
+        flex-direction: row;
+        background: orangered;
+
+    }
+}
+
+
+.seccion_plato {
+
+    width: 100%;
+    font-family: 'Freehand', sans-serif;
+    display: inline-block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: chocolate;
+    border: solid red;
+    display: flex;
+    flex-direction: column;
+}
+
+.plato {
+    display: inline;
+    text-align: left;
+    left: 5px;
+    
+    
+
+}
+.separacion {
+    border: solid red;
+    background-color: rgb(244, 244, 246);
+}
+.separacion_video {
+    border: solid red;
+    background-color: rgb(244, 244, 246);
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.separacion_imagen {
+    
+    
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.separacion_imagen p {
+    
+    
+    display: inline-block;
+    width: 45%;
+    
+}
+.separacion_imagen caption {
+    
+    
+    display: inline-block;
+    width: 50%;
+    
+}
+ul {
+    display: inline-block;
+    width: 95%;
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    text-align: center;
+    
+
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+}
+h3 {text-decoration-line: underline;}
+
+
+.pieDePagina {
+    background: grey;
+    border: solid grey 4px;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    text-align: center;
+    text-decoration-line: underline;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
+
+#bioContactoPortfolio {
+    display: flex;
+    flex-direction: row;
+    background: grey;
+    border: solid grey 4px;
+}
+figcaption{
+    text-align: center;
+}

@@ -1,51 +1,213 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog del cocinillas</title>
     <link rel="stylesheet" href="css/mystyle.css">
+    <link href="https://fonts.googleapis.com/css2?family=Freehand&family=Space+Mono&display=swap" rel="stylesheet">
 </head>
-<body> 
-    
-    <div id="header">
-    
-        
-        <h1>El Blog del cocinillas</h1>
-        <p>Para quedar bien sin sudarla en los fogones</p>
-        
-        <nav class="cabecera">
-            <a href="#entrantes" >Entrantes</a> 
-        </nav>
-        <nav class="cabecera">
-            <a href="#principales" >Platos principales</a>
-        </nav>
-        <nav class="cabecera">
-           <a href="#postres" >Postres</a>
-        </nav>
-    </div>
 
+<body>
+    <header>
+        <div id="fotocabecera">
+            <img src="Assets/images/Cocinillas.png" alt="Gente disfrutando una comida casera">
+        </div>
+        <div class="bienvenida">
+            <h1>El Blog del cocinillas</h1>
+            <p>Para quedar bien sin sudarla en los fogones</p>
+        </div>
+        <section id="tiposDePlato">
+            <nav class="cabecera">
+                <a href="#entrantes">Entrantes</a>
+            </nav>
+            <nav class="cabecera">
+                <a href="#principales">Platos principales</a>
+            </nav>
+            <nav class="cabecera">
+                <a href="#postres">Postres</a>
+            </nav>
+        </section>
+    </header>
+    <section id="entrantes" class="seccion_plato"> ENTRANTES
+        <div class="separacion">
+            <article class="plato">
 
-<div id="entrantes" class="tipodeplato">
-    <h2> ENTRANTES</h2>
-    <ul>
-       <li>  <a href="pages/ensalada_valenciana.html" target="receta">Ensalada</a> </li>
-    </ul>
-</div>
+                <h2>Ensalada valenciana</h2>
+                <p>La ensalada valenciana es la ensalada por excelencia para acompañar a platos tan típicos como la
+                    Paella
+                    valenciana y nunca puede faltar a la mesa.</p>
+                <h3>INGREDIENTES:</h3>
+                <ul>
+                    <li>Lechuga</li>
+                    <li>Tomate</li>
+                    <li>Cebolla</li>
+                    <li>Aceitunas</li>
+                    <li>Aceite de oliva virgen</li>
+                    <li>Vinagre</li>
+                    <li>Sal</li>
+                </ul>
+                <h3>PREPARACIÓN</h3>
+                <ul>
+                    <li>Corta la lechuga</li>
+                    <li>Corta el tomate en rodajas</li>
+                    <li>Corta la cebolla, estilo Juliana</li>
+                    <li>Abre el bote de aceitunas</li>
+                    <li>Añadir aceite, sal y vinagre al gusto</li>
 
-<div id="principales" class="tipodeplato">
-    <h2> PRINCIPALES</h2>
+                </ul>
+            </article>
+        </div>
+        <div class="separacion">
+            <article class="plato">
 
-</div> 
+                <h2>Queso provolone al horno</h2>
+                <p>El provolone es queso semi-duro con un sabor que varía mucho. Desde el Provolone Piccante, curado un
+                    mínimo de 4 meses (pudiendo llegar a un año) y caracterizado por tener un sabor muy fuerte, hasta el
+                    Provolone Dolce, con un sabor muy suave.</p>
+                <h3>INGREDIENTES:</h3>
+                <ul>
+                    <li>Queso provolone</li>
+                    <li>Tomate frito</li>
+                    <li>Orégano</li>
 
-<div id="postres" class="tipodeplato">
-    <h2> POSTRES</h2>
+                </ul>
+                <h3>PREPARACIÓN</h3>
+                <ul>
+                    <li>Calienta el horno a 200°C durante 10 minutos</li>
+                    <li>Coloca la pieza de queso en una cacerola de barro del tamaño adecuado</li>
+                    <li>Esparce una fina capa de tomate frito sobre el queso</li>
+                    <li>Aderézalo con el orégano</li>
+                    <li>Colócalo en el horno hasta que quede bien dorado</li>
 
-</div> 
+                </ul>
+            </article>
+        </div>
+    </section>
 
-<div>
-    <iframe frameborder="1" height="1000" name="receta"></iframe>
-</div>
-    
+    <section id="principales" class="seccion_plato"> PLATOS PRINCIPALES
+        <div class="separacion">
+            <article class="plato">
+
+                <h2>Hamburguesa con queso cheddar</h2>
+                <p>Este famoso queso de color naranja es la elección más clásica para la mayoría de hamburquesas. Y es
+                    que el cheddar al ser un queso semiduro y graso, combina perfectamente con el sabor de la carne,
+                    aportándole un toque dulce.</p>
+                <h3>INGREDIENTES:</h3>
+                <ul>
+                    <li>Carne de hamburguesa (preferiblemente Angus)</li>
+                    <li>Lechuga</li>
+                    <li>Cebolla</li>
+                    <li>Tomate</li>
+                    <li>Queso Cheddar</li>
+                    <li>Pan de hamburguesa</li>
+                </ul>
+                <h3>PREPARACIÓN</h3>
+                <ul>
+                    <li>Corta la lechuga</li>
+                    <li>Corta el tomate en rodajas</li>
+                    <li>Corta la cebolla en rodajas</li>
+                    <li>Calienta la carne (fuego lento o intenso dependiendo de si te gusta algo chamuscada)</li>
+                    <li>Cuando la carne esté casi lista, pon una o dos lonchas de cheddar sobre ésta</li>
+                    <li>También puedes tostar un poco el pan de hamburguesa para que quede un poco crujiente</li>
+                </ul>
+            </article>
+        </div>
+        <div class="separacion">
+            <article class="plato">
+
+                <h2>Salmón al horno con patatas</h2>
+                <p>El salmón es una fuente de proteínas y minerales excelente. Contiene yodo, magnesio, fósforo,
+                    selenio, hierro y calcio. El aporte de vitaminas ayuda al buen funcionamiento de la tiroides y el
+                    intestino. Contiene una alta cantidad de vitamina D, ayuda a la formación de la estructura ósea y
+                    por tanto fortalece los huesos.</p>
+                <h3>INGREDIENTES:</h3>
+                <ul>
+                    <li>Salmón</li>
+                    <li>Patatas</li>
+                    <li>Perejil</li>
+                    <li>Aceite</li>
+                    <li>Sal</li>
+                </ul>
+                <h3>PREPARACIÓN</h3>
+                <ul>
+                    <li>Calienta el horno a 180°C durante 15 minutos</li>
+                    <li>Corta las patatas en rodajas</li>
+                    <li>Vierte un poco de aceite en el recipiente para evitar que el salmón se quede pegado</li>
+                    <li>Coloca el salmón en el recipiente junto a las patatas</li>
+                    <li>Adereza con el perejil y la sal</li>
+                    <li>Vierte un poco de aceite sobre el salmón y las patatas para que queden doradas</li>
+                    <li>Déjalo en el horno hasta que quede tan hecho como prefieras</li>
+                </ul>
+            </article>
+        </div>
+    </section>
+
+    <section id="postres" class="seccion_plato">POSTRES
+        <div class="separacion">
+            <article class="plato">
+                <h2>Macedonia de frutas</h2>
+                <p>La macedonia de frutas es una ensalada de frutas y un postre en Francia, Italia, España y
+                    Latinoamerica.</p>
+                <h3>INGREDIENTES:</h3>
+                <ul>
+                    <li>Plátano</li>
+                    <li>Pera</li>
+                    <li>Nectarina</li>
+                    <li>Kiwi</li>
+                    <li>Melón</li>
+                    <li>Limón expriimido</li>
+                    <li>Naranja exprimida</li>
+                </ul>
+                <h3>PREPARACIÓN</h3>
+                <ul>
+                    <li>En un cuenco amplio, troceamos las frutas, una vez lavadas y peladas</li>
+                    <li>Una vez cortadas las frutas, añadimos el zumo de limón para que no se oxiden</li>
+                    <li>Agregamos el zumo de naranja</li>
+                    <li>Refrigeramos durante unas horas</li>
+                </ul>
+        </div>
+        </article>
+        <div class="separacion">
+            <article class="plato">
+                <h2>Banana split</h2>
+                <p>Banana split, conocido también en algunos lugares como helado de banana o barco de banana, es un postre principalmente hecho de helado y banana.</p>
+                <h3>INGREDIENTES:</h3>
+                <ul>
+                    <li>Plátano</li>
+                    <li>Helado de chocolate</li>
+                    <li>Helado de vainilla</li>
+                    <li>Helado de fresa</li>
+                    <li>Sirope de chocolate</li>
+                    <li>Almendra laminada o granillo</li>
+                    <li>Nata líquida para montar</li>
+                </ul>
+                <h3>PREPARACIÓN</h3>
+                <ul>
+                    <li>Pelamos el plátano y lo cortamos por la mitad, a lo largo y lo colocamos a ambos lados de un recipiente alargado</li>
+                    <li>Con una cuchara de helado hacemos bolas con cada uno de los sabores y las emplatamos en el centro, dejando las mitades de plátano a los lados.</li>
+                    <li>Regamos con un hilo fino de sirope de chocolate</li>
+                    <li>Espolvoreamos con almendra laminada</li>
+                </ul>
+        </div>
+        </article>
+    </section>
+
+<footer>
+
+<section id="bioContactoPortfolio">
+    <nav class="pieDePagina">
+        <a href="pages/biografia.html">Sobre el autor</a>
+    </nav>
+    <nav class="pieDePagina">
+        <a href="pages/portfolio.html">Portfolio</a>
+    </nav>
+    <nav class="pieDePagina">
+        <a href="pages/contacto.html">Contacto</a>
+    </nav>
+</section>
+</footer>
 </body>
+
 </html>
