@@ -86,7 +86,7 @@ h1 {
 @media screen and (min-width: 600px) {
     .cabecera {
         display: inline-block;
-        background: orangered;
+        
         text-align: center;
     }
 }
@@ -94,7 +94,7 @@ h1 {
 @media screen and (min-width: 768px) {
     .cabecera {
         display: inline-block;
-        background: orangered;
+        
         text-align: center;
 
     }
@@ -115,6 +115,7 @@ img {
 video {
     width: 100%;
 }
+
 #fotocabecera {
 
     z-index: -10;
@@ -153,7 +154,7 @@ video {
 }
 
 
-#tiposDePlato {
+.tiposDePlato {
     display: flex;
     flex-direction: column;
     background: orangered;
@@ -164,7 +165,7 @@ video {
 }
 
 @media screen and (min-width: 600px) {
-    #tiposDePlato {
+    .tiposDePlato {
         display: flex;
         flex-direction: row;
         background: orangered;
@@ -173,7 +174,7 @@ video {
 }
 
 @media screen and (min-width: 768px) {
-    #tiposDePlato {
+    .tiposDePlato {
         display: flex;
         flex-direction: row;
         background: orangered;
@@ -200,14 +201,16 @@ video {
     display: inline;
     text-align: left;
     left: 5px;
-    
-    
+
+
 
 }
+
 .separacion {
     border: solid red;
     background-color: rgb(244, 244, 246);
 }
+
 .separacion_video {
     border: solid red;
     background-color: rgb(244, 244, 246);
@@ -216,31 +219,58 @@ video {
     margin-left: auto;
     margin-right: auto;
 }
+
 .separacion_imagen {
-    
-    
-    display: flex;
+display: flex;
     flex-direction: row;
     width: 95%;
     margin-left: auto;
     margin-right: auto;
-    
+}
+.separacion_imagen caption {
+
+
+    display: inline-block;
+    max-width: 5%;
+    height: auto;
+}
+input, label {
+    display: block;
+}
+.datosPersonales {
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    display: flex;
+    flex-direction:column; 
+    justify-content: center;
+}
+
+@media screen and (min-width: 600px) {
+    .separacion_imagen caption {
+        display: inline-block;
+        width: 50%;
+}
+}
+
+@media screen and (min-width: 768px) {
+    .separacion_imagen caption {
+        display: inline-block;
+        width: 50%;
+
+    }
 }
 
 .separacion_imagen p {
-    
-    
+
+
     display: inline-block;
     width: 45%;
-    
+
 }
-.separacion_imagen caption {
-    
-    
-    display: inline-block;
-    width: 50%;
-    
-}
+
+
+
 ul {
     display: inline-block;
     width: 95%;
@@ -249,14 +279,17 @@ ul {
 h2 {
     font-family: 'Times New Roman', Times, serif, sans-serif;
     text-align: center;
-    
+
 
 }
 
 p {
     font-family: 'Times New Roman', Times, serif, sans-serif;
 }
-h3 {text-decoration-line: underline;}
+
+h3 {
+    text-decoration-line: underline;
+}
 
 
 .pieDePagina {
@@ -279,6 +312,7 @@ h3 {text-decoration-line: underline;}
     background: grey;
     border: solid grey 4px;
 }
-figcaption{
+
+figcaption {
     text-align: center;
 }
