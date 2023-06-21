@@ -20,7 +20,8 @@ h1 {
 }
 
 .bienvenida {
-    display: block;
+    display: flex;
+    flex-direction: column;
     text-align: center;
     border: solid orangered 4px;
     margin-left: auto;
@@ -256,7 +257,7 @@ border: 0px;
     .fotobio {
         width: 30%;
         display: inline-block;
-        padding-top: 3%;
+        padding-top: 1%;
     }
 }
 
